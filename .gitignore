@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-single
+dist-pages
+.DS_Store
+.vite
+*.zip
+# Internal research notes stay local
+docs/
+CLONE.md

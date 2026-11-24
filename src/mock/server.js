@@ -8,7 +8,8 @@ import { HOST_PICTURE_URL, MODE_LOGOS, SCOTT_PHOTOS, STREAM_HERO_URL } from "../
 
 // Version 2 keeps its own saved data: version 1 is published on the same site (same browser
 // storage) and must not be touched by it.
-const DB_KEY = "savvy-mock-db-empty";
+// The empty version keeps its own saved data, apart from the full prototype on the same site.
+const DB_KEY = "savvy-compact-db-empty";
 const DB_VERSION = 64;
 
 // The demo data: one host (Scott), one sponsor (Wendy's) and one stream per state and edge case,

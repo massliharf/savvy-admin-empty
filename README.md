@@ -1,9 +1,9 @@
 # Savvy Admin — empty
 
-The Savvy Admin prototype with no content: no streams, hosts, sponsors, polls, share card or
-notification presets, game sets, word sets, scoring presets, reward sets, game modes or power-ups.
-Users, the shop, seasons and the daily puzzle keep their sample data. Saved data lives in its own
-browser storage (`savvy-mock-db-empty`), apart from the full prototype.
+The Savvy Admin prototype (Savvy Compact) with no content: no streams, hosts, sponsors, polls, share
+card or notification presets, game sets, word sets, scoring presets, reward sets, game modes or
+power-ups. Users, the shop, seasons and the daily puzzle keep their sample data. Saved data lives in
+its own browser storage (`savvy-compact-db-empty`), apart from the full prototype.
 
 Live: https://massliharf.github.io/savvy-admin-empty/
 

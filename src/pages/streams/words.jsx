@@ -211,7 +211,7 @@ const wordInput = { htmlInput: { autoCapitalize: "none", spellCheck: false } };
 function SetWordsEditor({ control, setValue, getValues, fields, append, remove, validateWord }) {
   const hasShowdown = useWatch({ control, name: "hasShowdown" });
   const number = (text) => (
-    <Typography variant="bodyLarge" color="text.secondary">
+    <Typography variant="bodyMedium" color="text.secondary">
       {text}
     </Typography>
   );

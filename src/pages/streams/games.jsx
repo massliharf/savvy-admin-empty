@@ -4,11 +4,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { PageToolbar } from "../../ds/Page";
 import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import { EmptyState } from "../../ds/EmptyState";
 import { Icon } from "../../ds/Icon";
+import { PageToolbar } from "../../ds/Page";
 import { CardsSkeleton } from "../../ds/Skeletons";
 import { useNotify } from "../../shell/notifications";
 import { CardGrid, ShopCard } from "../shop/shared";
@@ -30,7 +30,7 @@ export default function GameSetsPage() {
         <CardsSkeleton count={3} media={66} label="Loading game sets" />
       ) : bundles.length === 0 ? (
         <EmptyState icon="inventory_2" title="No game sets yet">
-          <Button color="secondary" startIcon={<Icon name="add" />} onClick={() => setNewMode(true)}>
+          <Button startIcon={<Icon name="add" />} onClick={() => setNewMode(true)}>
             New game set
           </Button>
         </EmptyState>

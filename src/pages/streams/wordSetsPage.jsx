@@ -141,7 +141,7 @@ export default function WordSetsPage() {
           <ContainerCard>
             <EmptyState icon={query ? "search_off" : "spellcheck"} title={query ? "No word sets match" : tab === "available" ? "No ready word sets" : tab === "assigned" ? "No scheduled word sets" : "No used word sets yet"}>
               {tab === "available" && !query && (
-                <Button color="secondary" startIcon={<Icon name="add" />} onClick={() => setSheet({})}>
+                <Button startIcon={<Icon name="add" />} onClick={() => setSheet({})}>
                   New word set
                 </Button>
               )}
@@ -181,7 +181,7 @@ export default function WordSetsPage() {
         title="Assign to a stream"
         header={
           assigning && (
-            <Box sx={{ px: 3, py: 2, borderBottom: `1px solid ${c.outlineVariant}` }}>
+            <Box sx={{ px: 2.5, py: 1.5, borderBottom: `1px solid ${c.outlineVariant}` }}>
               <WordSetSummary set={assigning} hidden={hidden} />
             </Box>
           )
